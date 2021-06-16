@@ -1,0 +1,21 @@
+version: '3.3'
+
+services:
+
+    db:
+      image: mysql:latest
+      container_name: mysql-db
+      hostname: pollify-db
+      restart: always
+      environment:
+        - MYSQL_ROOT_PASSWORD=root
+      ports:
+        - ${PORT_MYSQL}:3306
+    
+    spring-boot: 
+      image: pinaka30/pollify:v1 
+      container_name: pollify 
+      ports:
+        - ${PORT_SERVER}:8080
+      depends_on:                           
+        - db   
