@@ -13,7 +13,7 @@ services:
         - ${PORT_MYSQL}:3306
     
     spring-boot: 
-      image: pinaka30/pollify:v1 
+      image: pinaka30/pollify:latest
       container_name: pollify 
       ports:
         - ${PORT_SERVER}:8080
