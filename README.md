@@ -1,7 +1,7 @@
 # Pollify
 An app for conducting polls built using `Java (Spring-Boot)`, `Maven`, `JSP`, `Hibernate` and `MySQL`.
 <br><br>
-<img width="600" height="185" alt="Pollify Banner" src="./extras/banner.png">
+<img width="600" height="185" alt="Pollify Banner" title="Pollify Banner" src="./extras/banner.png">
 
 ## Index 
 1. [Features](#features)
@@ -49,7 +49,15 @@ This build runs the `Spring-Boot` project as a `Java` application and connects i
 
 | | |
 |:-------------------------:|:-------------------------:|
-|<img width="1000" alt="Login Screen" src="./extras/ss1.png"> | <img width="1000" alt="Dashboard" src="./extras/ss2.png">|
-|<img width="1000" alt="List Topics" src="./extras/ss3.png"> | <img width="1000" alt="Create Topic" src="./extras/ss4.png">|
-|<img width="1000" alt="View Posts" src="./extras/ss5.png"> | <img width="1000" alt="Create Posts" src="./extras/ss6.png">|
-|<img width="1000" alt="View Users" src="./extras/ss7.png"> | <img width="1000" alt="Submit Response" src="./extras/ss8.png">|
+|<img width="1000" alt="Login Screen" title="Login Screen" src="./extras/ss1.png"> | <img width="1000" alt="Dashboard" title="Dashboard" src="./extras/ss2.png">|
+| Login Screen | Dashboard |
+| | |
+|<img width="1000" alt="Create Channel" title="Create Channel" src="./extras/ss3.png"> | <img width="1000" alt="View Channels" title="View Channels" src="./extras/ss4.png">|
+| Create Channel | View Channels |
+| | |
+|<img width="1000" alt="Create Post" title="Create Post" src="./extras/ss5.png"> | <img width="1000" alt="View Posts" title="View Posts" src="./extras/ss6.png">|
+| Create Post | View Posts |
+| | |
+|<img width="1000" alt="View Users" title="View Users" src="./extras/ss7.png"> | <img width="1000" alt="Submit Response" title="Submit Response" src="./extras/ss8.png">|
+| View Users | Submit Response |
+| | |
